@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akaya_telivigala</item>
+        <item>@font/atomic_age</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/baloo</item>
+        <item>@font/baloo_tammudu_2</item>
+    </array>
+</resources>
