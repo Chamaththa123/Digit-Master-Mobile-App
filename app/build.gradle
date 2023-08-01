@@ -48,4 +48,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.faendir.rhino:rhino-android:1.5.2'
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
 }
