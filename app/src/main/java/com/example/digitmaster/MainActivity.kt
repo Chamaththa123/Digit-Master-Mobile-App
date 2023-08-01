@@ -3,19 +3,22 @@ package com.example.digitmaster
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import com.example.digitmaster.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var calculator: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
-        binding.calculator.setOnClickListener {
+        calculator = findViewById(R.id.calculator)
+
+        calculator.setOnClickListener {
             var intent = Intent(this,DigitMaster::class.java)
             startActivity(intent)
         }
