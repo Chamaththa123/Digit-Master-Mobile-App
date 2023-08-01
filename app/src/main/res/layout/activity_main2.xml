@@ -9,41 +9,31 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="600dp"
-        android:layout_height="364dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="354dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/_89_removebg" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="379dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="5dp"
-        android:background="@drawable/one"
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="47dp"
+        android:text="Get Start >>"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_200"
+        android:textSize="24sp"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12">
-
-        <Button
-            android:id="@+id/start"
-            android:layout_width="343dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="18dp"
-            android:backgroundTint="#003C71"
-            android:shadowColor="#00FFFFFF"
-            android:text="Start >>>"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
