@@ -9,31 +9,39 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="354dp"
-        android:layout_height="180dp"
+        android:layout_width="319dp"
+        android:layout_height="145dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/_89_removebg" />
 
     <TextView
         android:id="@+id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="306dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginEnd="47dp"
-        android:text="Get Start >>"
+        android:layout_width="401dp"
+        android:layout_height="670dp"
+        android:layout_marginTop="4dp"
         android:textAllCaps="false"
         android:textColor="@color/purple_200"
         android:textSize="24sp"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="Copyright © 2023 - Chamaththa Shamod"
+        android:textColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
